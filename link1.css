@@ -1,0 +1,110 @@
+﻿
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 4em;
+    color: black;
+    background-color:green;
+    clear: left;
+    text-align: center;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/19/15/17/sea-2419687_960_720.jpg");
+
+    /* Set a specific height */
+    height: 460px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+ul {
+    
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #c1c1c1;
+}
+body {
+    background-image: url("https://cdn.webdesignviews.com/media/2013/15208/escheresque-dark.jpg");
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: green;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+	width: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 2px solid green;
+    padding: 10px;
+}
+a, a:visited, a:hover, a:active {
+  color: green;
+}
+div {
+width: 100%;
+height: 100%;
+min-width: 1000px;
+min-height: 1000px;
+}
+p{
+	color: green;
+}
+h1 {
+    color: black;
+}
+h2 {
+    color: green;
+	text-shadow: 1px 1px 1px #000;
+}
+h3 {
+    color: green;
+}
+p {
+    border: 10px solid green;
+    margin: 5px;
+}
+
+
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
